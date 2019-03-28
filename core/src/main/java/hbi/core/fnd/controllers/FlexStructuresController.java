@@ -39,6 +39,7 @@ import java.util.List;
         return responseData;
         }
         IRequest requestCtx = createRequestContext(request);
+        
         return new ResponseData(service.batchUpdate(requestCtx, dto));
     }
 
@@ -46,6 +47,7 @@ import java.util.List;
     @ResponseBody
     public ResponseData delete(HttpServletRequest request,@RequestBody List<FlexStructures> dto){
         service.batchDelete(dto);
+          System.out.println("hehehhehehehehehehehheheehhehe");
         return new ResponseData();
     }
     }
