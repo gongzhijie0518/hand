@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="hbi.core.org.mapper.CircReportingOrgsMapper">
+    <resultMap id="BaseResultMap" type="hbi.core.org.dto.CircReportingOrgs">
+        <result column="REP_ORG_ID" property="repOrgId" jdbcType="DECIMAL" />
+        <result column="REP_ORG_CODE" property="repOrgCode" jdbcType="VARCHAR" />
+        <result column="REP_ORG_NAME" property="repOrgName" jdbcType="VARCHAR" />
+        <result column="REP_ORG_DESC" property="repOrgDesc" jdbcType="VARCHAR" />
+        <result column="REP_ORG_TYPE" property="repOrgType" jdbcType="VARCHAR" />
+        <result column="ENABLED_FLAG" property="enabledFlag" jdbcType="VARCHAR" />
+        <result column="START_DATE_ACTIVE" property="startDateActive" jdbcType="DATE" />
+        <result column="END_DATE_ACTIVE" property="endDateActive" jdbcType="DATE" />
+        <result column="FT_FLEX_CODE" property="ftFlexCode" jdbcType="VARCHAR" />
+        <result column="TX_FLEX_CODE" property="txFlexCode" jdbcType="VARCHAR" />
+    </resultMap>
+
+
+</mapper>

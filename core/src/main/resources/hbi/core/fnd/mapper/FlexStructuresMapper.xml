@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="hbi.core.fnd.mapper.FlexStructuresMapper">
+    <resultMap id="BaseResultMap" type="hbi.core.fnd.dto.FlexStructures">
+        <result column="APPLICATION_ID" property="applicationId" jdbcType="DECIMAL" />
+        <result column="ID_FLEX_CODE" property="idFlexCode" jdbcType="VARCHAR" />
+        <result column="ENABLED_FLAG" property="enabledFlag" jdbcType="VARCHAR" />
+        <result column="ID_FLEX_NAME" property="idFlexName" jdbcType="VARCHAR" />
+    </resultMap>
+
+
+</mapper>
