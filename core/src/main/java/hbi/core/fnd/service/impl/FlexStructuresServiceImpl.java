@@ -9,5 +9,7 @@ import org.springframework.transaction.annotation.Transactional;
 @Service
 @Transactional(rollbackFor = Exception.class)
 public class FlexStructuresServiceImpl extends BaseServiceImpl<FlexStructures> implements IFlexStructuresService{
-
+    public static void main(String[] args) {
+        System.out.println("jaisdf");
+    }
 }
