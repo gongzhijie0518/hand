@@ -10,6 +10,6 @@ import org.springframework.transaction.annotation.Transactional;
 @Transactional(rollbackFor = Exception.class)
 public class FlexStructuresServiceImpl extends BaseServiceImpl<FlexStructures> implements IFlexStructuresService{
     public static void main(String[] args) {
-        System.out.println("面试不会啊");
+        System.out.println("为什么面试不会啊");
     }
 }
