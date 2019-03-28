@@ -47,7 +47,7 @@ import java.util.List;
     @ResponseBody
     public ResponseData delete(HttpServletRequest request,@RequestBody List<FlexStructures> dto){
         service.batchDelete(dto);
-          System.out.println("hehehhehehehehehehehheheehhehe");
+          System.out.println("阿士大夫撒地方士大夫");
         return new ResponseData();
     }
     }
